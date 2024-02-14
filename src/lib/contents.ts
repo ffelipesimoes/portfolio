@@ -187,3 +187,111 @@ export const volunteeringData = [
     photo: "/amiguinhos.jpeg"
   },
 ]
+
+export const workData = [
+  {
+    period: "Apr 2023 - Present ",
+    title: "Full Stack Developer",
+    institution: "Balpas Serviços Médicos",
+    description: "Development of a medical teleconsultation platform using. Leader of the squad formed by 4 developers. ",
+    photo: "/babyPool.jpeg"
+  },
+  {
+    period: "Jul 2022 - Present",
+    title: "Blockchain Devops Engineer",
+    institution: "Zoop",
+    description: "Blockscout blockchain data analysis system maintenance. - AWS management (EC2,RDS,Lambda,IAM, Route53, CloudWatch, API Gateway) with Terraform. - Deploy of Elastic observability stack: Elasticsearch, Logstash and Kibana(ELK Stack). - Deploy of the Grafana monitoring tool. - Participation in the creation of disaster and recovery plan and business continuity plan. - Deploying serverless functions using serverless framework. ",
+    photo: "/babyPool.jpeg"
+  },
+  {
+    period: "Aug 2022 - Nov 2022",
+    title: "Web3 Frontend Developer",
+    institution: "NFTFY",
+    description: "Participation in the development of the NFT stake rewards platform. That platform used React + Next.js and Typescript. For code patterns we use ESLint + Prettier + Cspell. Versioning using git/Github.     Deploy of some components for own design system and Antd. Also used styled components + Antd. We use SCRUM as agile methodology.",
+    photo: "/babyPool.jpeg"
+  },
+  {
+    period: "Mar 2022 - Aug 2022",
+    title: "Web3 Developer",
+    institution: "Mentora",
+    description: "My team have created the ERC20 game token, the governance token, also a ERC20 with extensions. We have deployed a customized contract to a public Offer and ran tests for this contracts with Hardhat. Deploy of a contract that interacts with Uniswap Router. ",
+    photo: "/babyPool.jpeg"
+  },
+  {
+    period: "Mar 2022 - May 2022",
+    title: "Full Stack and Blockchain Developer",
+    institution: "BlockBr",
+    description: "Full stack developer creating solutions with stack: React, Node.js, Solidity. Agile project, Jira, Miro, Trello. ",
+    photo: "/babyPool.jpeg"
+  },
+  {
+    period: "Mar 2021 - Jun 2022",
+    title: "Head Of Technology and Blockchain Developer",
+    institution: "CryptoJr",
+    description: "- Restructured our consulting & development services and sectors & positions, aligning them better to the market; - Leding the largest project in the history of Crypto Jr. This project worth 50% more than the official revenue goal for the whole year. This was also the all-time record capitalization at any given time in Crypto's history; - Leding the biggest team in the company with 9 members. ",
+    photo: "/babyPool.jpeg"
+  },
+  {
+    period: "Oct 2019 - Apr 2022",
+    title: "Information Technology Analyst",
+    institution: "Vale S.A",
+    description: "Leader of the hosting tower for the Basic Metals mines in the North corridor. Conducting projects to increase security and availability to the business. Acting in the IT / OT integration program. Responsible for maintaining the infrastructure environment: Windows Server, Virtualization, Backup, CyberSecurity. ",
+    photo: "/babyPool.jpeg"
+  },
+  {
+    period: "Aug 2018 - Oct 2019",
+    title: "SysAdmin",
+    institution: "Sonda IT",
+    description: "Outsource at Northeast Brazilian Bank. Managing critical finance systems hosted on Windows Servers family 2k - 2k19, supporting infrastructure services as AD, GPO, DNS, DHCP, FS, DFS, IIS, HIS, Components, NLB, HA, Clustering and backup. Maintaining virtualized environments with Hyper-V and VMWare and automating tasks using powershell.",
+    photo: "/babyPool.jpeg"
+  },
+  {
+    period: "Jan 2018 - Mar 2018",
+    title: "IT Helpdesk Engineer", 
+    institution: "PFH Technology Group",
+    description: "Managing the infrastructure services: Image Deployment with MDT. Monitoring, patching, backup and antivirus using cloud-based solutions. Windows Update management and troubleshooting. Taking part of antivirus migration process. Improving automatizated tasks using powershell.",
+    photo: "/babyPool.jpeg"
+  },
+  {
+    period: "Feb 2012 - Mar 2017",
+    title: "SysOps Administrator",
+    institution: "Lanlink Informática LTDA",
+    description: "Implementation and administration of Infrastructure services using IBM Bladecenter and Dell servers, Citrix NetScaler, Exchange Servers, Windows Server Services, Hyper-V and VMware. Improving the Security Level using Kaspersky Technologies. Improving the Service Desk experience with tasks automatization by scripts. Supporting the develop team with IIS, Web Service, Jboss, Tomcat Technologies. ",
+    photo: "/babyPool.jpeg"
+  },
+]
+
+export const talkData = [
+
+  {
+    name: 'Web3 - Blockchain, Tokens and NFTs',
+    date: ' Mai 2023',
+    instutution: 'Digital College',
+    photo: "/babyPool.jpeg"
+  },
+  {
+    name: 'Web3: The new way to earn money',
+    date: ' Oct 2022',
+    instutution: 'CEMP/UFC',
+    photo: "/babyPool.jpeg"
+  },
+  {
+    name: 'Blockchain, cryptocurrency and the future of the money',
+    date: 'May 2022',
+    instutution: 'Chatbot by Suri',
+    photo: "/babyPool.jpeg"
+  },
+  {
+    name: 'How blockchain is changing the way to keep data',
+    date: 'Aug 2019',
+    instutution: 'SUCESUCE',
+    photo: "/babyPool.jpeg"
+  },
+  {
+    name: 'Blockchain as a service (BaaS)',
+    date: '2019',
+    instutution: ' BSBR Cloud Computing MBA',
+    photo: "/babyPool.jpeg",
+  },
+  
+]

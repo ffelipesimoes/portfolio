@@ -56,11 +56,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "Felipe Simões",
+      url: "https://github.com/ffelipesimoes",
     },
   ],
-  creator: "Taqui imam",
+  creator: "Felipe Simões",
 
   openGraph: {
     type: "website",
