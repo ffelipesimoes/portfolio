@@ -90,18 +90,25 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${rubik.variable}`}>
-        <main
-          className={cn(
-            "flex relative screen break-words min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
-            { "bg-white": "#E6E7EB" }
-          )}
-        >
-          {/* NAVBAR ->  */}
-          <Navbar />
-          {children}
-        </main>
-      </body>
+     <body className={`${poppins.variable} ${rubik.variable}`}>
+  <main
+    className={cn(
+      "flex relative screen break-words min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 max-sm:pt-20",
+      "text-gray-900" // Texto em cinza escuro para contraste
+    )}
+    style={{
+      backgroundImage: "linear-gradient(to right top, #f0f0f0, #e7e7e7, #dedef, #d6d6d6, #cdcdcd, #c4c4c4, #bbbbbb, #b2b2b2, #a9a9a9, #a0a0a0, #979797, #8e8e8e)",
+      backgroundSize: "cover",
+    }}
+  >
+    {/* NAVBAR */}
+    <Navbar />
+    {children}
+  </main>
+</body>
+
+
+
     </html>
   );
 }
