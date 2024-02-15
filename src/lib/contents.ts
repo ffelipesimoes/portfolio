@@ -1,3 +1,36 @@
+import html from '../../public/stack/html.png'
+import css from '../../public/stack/css.png'
+import js from '../../public/stack/js.png'
+import ts from '../../public/stack/ts.png'
+import solidity from '../../public/stack/solidity.png'
+import python from '../../public/stack/python.png'
+import react from '../../public/stack/react.png'
+import nextjs from '../../public/stack/nextjs.jpeg'
+import tailwind from '../../public/stack/tailwindcss.png'
+import nodejs from '../../public/stack/nodejs.png'
+import serverless from '../../public/stack/serverless.png'
+import nest from '../../public/stack/nest.png'
+import mongodb from '../../public/stack/mongodb.png'
+import mysql from '../../public/stack/mysql.png'
+import postgresql from '../../public/stack/postgresql.png'
+import aurora from '../../public/stack/aurora.png'
+import sequelize from '../../public/stack/sequelize.png'
+import prisma from '../../public/stack/prisma.svg'
+import hardhat from '../../public/stack/hardhat.jpeg'
+import openzeppelin from '../../public/stack/openzeppelin.png'
+import web3js from '../../public/stack/web3js.jpeg'
+import ethers from '../../public/stack/ethers.png'
+import thirdweb from '../../public/stack/thirdweb.png'
+import infura from '../../public/stack/infura.png'
+import alchemy from '../../public/stack/alchemy.jpeg'
+import aws from '../../public/stack/aws.png';
+import azure from '../../public/stack/azure.png'; 
+import jenkins from '../../public/stack/jenkins.png'; 
+import docker from '../../public/stack/docker.png'; 
+import terraform from '../../public/stack/terraform.png'; 
+import ansible from '../../public/stack/ansible.png'; 
+import elastic from '../../public/stack/elastic.png'; 
+import grafana from '../../public/stack/grafana.png'; 
 export const events = [
   {
     name: 'EthRio 2022',
@@ -214,7 +247,7 @@ export const workData = [
     period: "Mar 2022 - Aug 2022",
     title: "Web3 Developer",
     institution: "Mentora",
-    description: "My team have created the ERC20 game token, the governance token, also a ERC20 with extensions. We have deployed a customized contract to a public Offer and ran tests for this contracts with Hardhat. Deploy of a contract that interacts with Uniswap Router. ",
+    description: "My team have created the ERC20 game token, the governance token, also a ERC20 with extensions. We have deployed a customized contract to a public/stack Offer and ran tests for this contracts with Hardhat. Deploy of a contract that interacts with Uniswap Router. ",
     photo: "/babyPool.jpeg"
   },
   {
@@ -294,4 +327,74 @@ export const talkData = [
     photo: "/baas.jpeg",
   },
   
+]
+
+export const skillsData = {
+  languages: [
+    {alt:"html", img:html},
+    {alt:"css", img:css},
+    {alt:"js", img:js},
+    {alt:"ts", img:ts},
+    {alt:"solidity", img:solidity},
+    {alt:"python", img:python},
+  ],
+  frameworks: [
+    {alt:"react", img:react},
+    {alt:"nextjs", img:nextjs},
+    {alt:"tailwind", img:tailwind},
+    {alt:"nodejs", img:nodejs},
+    {alt:"serverless", img:serverless},
+    {alt:"nest", img:nest},   
+  ],
+  databases: [
+    {alt:"mysql", img:mysql},
+    {alt:"postgresql", img:postgresql},
+    {alt:"mongodb", img:mongodb},
+    {alt:"aurora", img:aurora},
+    {alt:"prisma", img:prisma},
+    {alt:"sequelize", img:sequelize}, 
+  ],
+  blockchain: [
+    {alt:"hardhat", img:hardhat},
+    {alt:"openzeppelin", img:openzeppelin},
+    {alt:"web3js", img:web3js},
+    {alt:"ethers", img:ethers},
+    {alt:"thirdweb", img:thirdweb},
+    {alt:"infura", img:infura},
+    {alt:"alchemy", img:alchemy},
+  ],
+  cloudOps: [
+    {alt:"AWS", img: aws},
+    {alt:"Azure", img: azure},
+    {alt:"Jenkins", img: jenkins},
+    {alt:"Docker", img: docker},
+    {alt:"Terraform", img: terraform},
+    {alt:"Ansible", img: ansible},
+    {alt:"Elastic Stack", img: elastic},
+    {alt:"Grafana", img: grafana},
+  ]
+};
+
+
+export const displaySkills = [
+    {
+      text : "Programming Languages",
+      src: skillsData.languages
+    },
+    {
+      text : "Frameworks",
+      src: skillsData.frameworks
+    },
+    {
+      text : "Databases and ORMs",
+      src: skillsData.databases
+    },
+    {
+      text : "Blockchain",
+      src: skillsData.blockchain
+    },
+    {
+      text : "Cloud and Devops",
+      src: skillsData.cloudOps
+    }
 ]

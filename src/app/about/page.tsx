@@ -32,22 +32,22 @@ As a Software Developer and DevOps engineer, my focus is to support organization
           I offer a range of services, including:
         </p>
 
-          <ul className="list-disc pl-8 text-md sm:text-sm leading-relaxed">
+          <ul className="list-disc pl-8 text-lg sm:text-base leading-relaxed">
             <li>Full stack software development;</li>
             <li>DevOps engineering;</li>
             <li>Blockchain consulting;</li>
             <li>Lectures on Web 3.0.</li>
           </ul>
 
-          <p className="text-md sm:text-sm leading-relaxed">
+          <p className="text-lg sm:text-base leading-relaxed">
             My mission is to create solutions that empower end-users, enhancing transparency and security in an ever-evolving digital environment.
           </p>
 
-          <p className="text-md sm:text-sm leading-relaxed">
+          <p className="text-lg sm:text-base leading-relaxed">
             When I'm not working, I love playing guitar, singing, and telling stories that make people laugh.
           </p>
 
-          <p className="text-md sm:text-sm leading-relaxed">
+          <p className="text-lg sm:text-base leading-relaxed">
             If you're looking to expand your company's capabilities with blockchain technology and Web 3.0, I would love to collaborate to develop strategies that propel your business.
           </p>
         </div>
