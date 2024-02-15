@@ -267,31 +267,31 @@ export const talkData = [
     name: 'Web3 - Blockchain, Tokens and NFTs',
     date: ' Mai 2023',
     instutution: 'Digital College',
-    photo: "/babyPool.jpeg"
+    photo: "/digitalcollege.jpeg"
   },
   {
     name: 'Web3: The new way to earn money',
     date: ' Oct 2022',
     instutution: 'CEMP/UFC',
-    photo: "/babyPool.jpeg"
+    photo: "/cemp.jpeg"
   },
   {
     name: 'Blockchain, cryptocurrency and the future of the money',
     date: 'May 2022',
     instutution: 'Chatbot by Suri',
-    photo: "/babyPool.jpeg"
+    photo: "/suri.jpeg"
   },
   {
     name: 'How blockchain is changing the way to keep data',
     date: 'Aug 2019',
     instutution: 'SUCESUCE',
-    photo: "/babyPool.jpeg"
+    photo: "/sabadocomTI.jpeg"
   },
   {
     name: 'Blockchain as a service (BaaS)',
     date: '2019',
     instutution: ' BSBR Cloud Computing MBA',
-    photo: "/babyPool.jpeg",
+    photo: "/baas.jpeg",
   },
   
 ]
