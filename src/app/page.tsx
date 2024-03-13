@@ -9,7 +9,7 @@ import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 export const siteConfig = {
   name: "Felipe Simões",
   description: "I am a Passionate Software Developer",
-  ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
+  ogImage: "https://felipesimoes.dev/og-image.png",
   url: "https://felipesimoes.dev",
 }
 export default function Home() {
