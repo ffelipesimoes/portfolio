@@ -6,7 +6,8 @@ import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 
 export const siteConfig = {
   name: "Felipe Simões",
-  description: "I am a Passionate Software Developer",
+  description:
+    "Experienced IT professional with over 14 years across diverse sectors (Legal, Banking, Mining, Health) from startups to large enterprises around the world. Driven by a passion for innovation, combining intelligent design with a results-oriented approach.",
   ogImage: "https://felipesimoes.dev/og-image.png",
   url: "https://felipesimoes.dev",
 };
