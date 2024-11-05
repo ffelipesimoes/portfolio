@@ -1,5 +1,3 @@
-
-
 import SocialLinks from "@/components/SocialLinks";
 import HeroTexts from "@/components/HeroTexts";
 import HeroImage from "@/components/HeroImage";
@@ -11,27 +9,26 @@ export const siteConfig = {
   description: "I am a Passionate Software Developer",
   ogImage: "https://felipesimoes.dev/og-image.png",
   url: "https://felipesimoes.dev",
-}
+};
 export default function Home() {
   return (
-   <>
+    <>
       {/* LEFT SIDE  */}
       <div className=" h-full w-auto flex flex-col justify-start gap-4">
         <HeroTexts />
         <div className="h-fit w-full p-4 flex gap-3">
           <SocialLinks />
         </div>
-       <DownLoadResumeBtn/>
+        {/* <DownLoadResumeBtn/> */}
       </div>
       {/* RIGHT SIDE image  */}
       <div className="h-full w-[47%] relative block max-lg:hidden">
-       
-      {/* IMAGE  */}
+        {/* IMAGE  */}
         <HeroImage />
       </div>
-     
+
       {/* GITHUB BUTTON  */}
-      <GithubBtn/>
-      </>
+      <GithubBtn />
+    </>
   );
 }
