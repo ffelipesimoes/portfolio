@@ -249,8 +249,22 @@ export const volunteeringData = [
 
 export const workData = [
   {
-    period: "Mar 2024 - Present ",
+    period: "Jun 2024 - Present",
     title: "Lead Software Engineer",
+    institution: "Ether Global Assets",
+    description: `
+      • Led the design and rollout of API V2, replacing BullMQ with AWS SQS, achieving 99.9% uptime and improving queue reliability without additional costs.
+      • Implemented authentication via Amazon Cognito with OAuth2 and MFA, resulting in zero security incidents. Introduced an OAuth2-based API key system aligned with financial industry standards.
+      • Re-architected the PIX payment infrastructure, which processes over 70% of company revenue — handling over 8 million BRL in transactions in just 90 days.
+      • Designed a flexible fee system with unlimited configurations for system, managers, and tenants — now generating over 200,000 BRL in total revenue.
+      • Built an automated withdrawal system for tenants — over 200,000 BRL processed — eliminating manual payout delays.
+      • Scaled the engineering team 2x and introduced agile practices, accelerating delivery cycles by 40% and increasing strategic output by 85%.
+    `,
+    photo: "/babyPool.jpeg",
+  },
+  {
+    period: "Mar 2024 - Jun 2024 ",
+    title: "Software Engineer",
     institution: "Ether Private Bank",
     description:
       "      •   Lead a team of 5 developers using agile methodologies, delivering the payment solutions and the company’s Backoffice platform.      •   Developed and implemented a multitenant system, reducing initial project costs by 75% and enabling future scalability.       •   Migrated the blockchain infrastructure to AWS, reducing infrastructure-related incidents by 90%.       •   Developed 2 API integrations for the payment system, including the Hathor blockchain with HSM.       •   Provide critical support for the Pix operation, which generates >80% of company revenue, prioritizing stability, and uptime.  ",
