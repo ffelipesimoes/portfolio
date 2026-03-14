@@ -7,19 +7,18 @@ function TextRotator() {
     className="py-4  rounded-md flex flex-col justify-center items-center overflow-hidden"
   >
     <div className="font-poppins text-base sm:text-2xl [text-wrap:balance] text-gray-700">
-    I am a Software Developer &
+    I am a
       <span
         className="inline-flex ml-2 flex-col h-[calc(theme(fontSize.lg)*theme(lineHeight.tight))] sm:h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] overflow-hidden"
       >
         <ul
           className="block text-left font-rubik text-lg sm:text-3xl leading-tight [&_li]:block animate-text-slide"
         >
-          <li className="text-[#2f7df4]">Devops Enginner</li>
-          <li className="text-[#2f7df4]">Speaker</li>
-          <li className="text-[#2f7df4]">Creator</li>
-          <li className="text-[#2f7df4]">Husband</li>
-          <li className="text-[#2f7df4]">Father</li>
-          <li className="text-[#2f7df4]">Web3 Advocate</li>
+          <li className="text-[#2f7df4]">Tech Lead</li>
+          <li className="text-[#2f7df4]">Zero-to-One Builder</li>
+          <li className="text-[#2f7df4]">AI Engineering</li>
+          <li className="text-[#2f7df4]">Founder</li>
+          <li className="text-[#2f7df4]">Fintech</li>
         
         </ul>
       </span>

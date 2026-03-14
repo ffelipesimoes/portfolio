@@ -105,45 +105,38 @@ export const events = [
 
 export const Projects = [
   {
-    title: "NFTFact - A backend for NFT factory",
-    description: "This is a project to create a factory of NFT contracts.",
-    tags: ["Solidity", "Typescript", "Nestjs", "Hardhat"],
-    link: "https://github.com/ffelipesimoes/nft-factory-api-nest-hardhat",
+    title: "Balão Revelação (BabyPool)",
+    description:
+      "Gender reveal betting platform. MVP generated R$1,200+ in revenue with 50+ bets in the first round. Built and validated with real users.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind"],
+    link: "https://github.com/ffelipesimoes/git-gbaby-gender-prediction",
   },
   {
-    title: "Deploy Smart Contract With Hard Wallet",
+    title: "Orça Comigo",
     description:
-      "This project shows how to deploy a smart contract using a hardware wallet.",
-    tags: ["Hardhat", "Truffle", "Metamask", "Ledger"],
-    link: "https://github.com/ffelipesimoes/deploy-smartcontract-with-hardwallet/",
+      "Finance management app for couples. R$280,000+ managed across 1,100+ transactions by real users.",
+    tags: ["React", "Next.js", "Node.js", "TypeScript"],
+    link: "#",
   },
   {
-    title: " Serverless Ecommerce API with AWS",
+    title: "Serverless Ecommerce API with AWS",
     description:
-      "An e-commerce application designed to be deployed in the AWS) cloud environment. ",
-    tags: ["Serverless", "Typescript", "AWS CDK", "Nodejs"],
+      "An e-commerce application designed to be deployed in the AWS cloud environment using serverless architecture.",
+    tags: ["Serverless", "TypeScript", "AWS CDK", "Node.js"],
     link: "https://github.com/ffelipesimoes/nodejs-aws-serverless-ecommerce",
   },
   {
-    title: "IaC - Deploy Infrasctructure with AWS",
+    title: "IaC - Deploy Infrastructure with AWS",
     description:
-      "This project demostrates how to deploy a cloud enviroment with bastion servers and ec2 instances.",
+      "Cloud environment deployment with bastion servers and EC2 instances using Terraform and Infrastructure as Code.",
     tags: ["AWS", "Terraform", "Infrastructure-as-Code"],
     link: "https://github.com/ffelipesimoes/terraform-bastionHost-ec2-aws",
   },
   {
-    title: "BabyPool - A baby gender guessing game",
-    description:
-      "At BabyPool people can bet on the expected gender of the child and receive rewards if right. ",
-    tags: ["ReactJs", "Tailwindcss", "Hardhat", "Solidity"],
-    link: "https://github.com/ffelipesimoes/git-gbaby-gender-prediction",
-  },
-  {
-    title: "Full-ERC721-Deploy on EVM-Based",
-    description:
-      "This project demonstrates the creation of an NFT with ERC721 contract. The user can store the asset in IPFS and mint the NFT.",
-    tags: ["Solidity", "Hardhat", "IPFS", "Typescript"],
-    link: "https://github.com/ffelipesimoes/Full-ERC721-Deployed-on-EVM-Based",
+    title: "NFTFact - A backend for NFT factory",
+    description: "A factory for creating and deploying NFT contracts at scale.",
+    tags: ["Solidity", "TypeScript", "NestJS", "Hardhat"],
+    link: "https://github.com/ffelipesimoes/nft-factory-api-nest-hardhat",
   },
 ];
 
@@ -186,7 +179,7 @@ export const educationData = [
     title: "MBA in Blockchain Applications",
     institution: "Instituto de Gerenciamento de Tecnologia da Informação",
     description:
-      "Advancing in blockchain applications, focusing on decentralized systems, financial blockchain integration, DApp development, and Web 3.0 technologies.",
+      "Advanced studies in distributed systems and financial technology, focusing on decentralized architectures, DApp development, and blockchain integration for fintech applications.",
   },
   {
     period: "2017 - 2018",
@@ -271,11 +264,19 @@ export const workData = [
     photo: "/babyPool.jpeg",
   },
   {
-    period: "Apr 2023 - Present ",
+    period: "2022 - Present",
+    title: "Founder & Developer",
+    institution: "W3DU",
+    description:
+      "Building AI-powered products and MVPs. W3DU combines technical expertise with artificial intelligence to launch products from zero. • Orça Comigo: finance management app for couples. R$280,000+ managed across 1,100+ transactions by real users. • Balão Revelação (BabyPool): gender reveal betting platform. MVP generated R$1,200+ in revenue with 50+ bets in the first round.",
+    photo: "/babyPool.jpeg",
+  },
+  {
+    period: "Apr 2023 - Present",
     title: "Senior FullStack Engineer",
     institution: "Balpas Serviços Médicos",
     description:
-      "      •  	Led a team of 4 developers, driving successful project deliveries through effective team management and agile practices.       •  	Integrated API solutions as chat, video conferencing, and payment processing with Stripe as part of business.       •  	Trained 3 Junior developers into intermediate level during the first part of project. ",
+      "Led a team of 4 developers, driving successful project deliveries through effective team management and agile practices. Integrated API solutions for chat, video conferencing, and payment processing with Stripe. Trained 3 Junior developers into intermediate level during the first phase of the project.",
     photo: "/babyPool.jpeg",
   },
   {
@@ -287,27 +288,11 @@ export const workData = [
     photo: "/babyPool.jpeg",
   },
   {
-    period: "Aug 2022 - Nov 2022",
-    title: "Web3 Frontend Developer",
-    institution: "NFTFY",
+    period: "Mar 2022 - Nov 2022",
+    title: "Blockchain Developer (Contract)",
+    institution: "BlockBr / Mentora / NFTFY",
     description:
-      "Participation in the development of the NFT stake rewards platform. That platform used React + Next.js and Typescript. For code patterns we use ESLint + Prettier + Cspell. Versioning using git/Github.     Deploy of some components for own design system and Antd. Also used styled components + Antd. We use SCRUM as agile methodology.",
-    photo: "/babyPool.jpeg",
-  },
-  {
-    period: "Mar 2022 - Aug 2022",
-    title: "Web3 Developer",
-    institution: "Mentora",
-    description:
-      "My team have created the ERC20 game token, the governance token, also a ERC20 with extensions. We have deployed a customized contract to a public/stack Offer and ran tests for this contracts with Hardhat. Deploy of a contract that interacts with Uniswap Router. ",
-    photo: "/babyPool.jpeg",
-  },
-  {
-    period: "Mar 2022 - May 2022",
-    title: "Full Stack and Blockchain Developer",
-    institution: "BlockBr",
-    description:
-      "Full stack developer creating solutions with stack: React, Node.js, Solidity. Agile project, Jira, Miro, Trello. ",
+      "Worked on short-term Web3 projects during transition into fintech. Full-stack blockchain development: DApps with React, Node.js, and Solidity (BlockBr). Token engineering: ERC20 game and governance tokens, deployed smart contracts with Hardhat, integrated with Uniswap Router (Mentora). NFT staking platform: frontend with React, Next.js, TypeScript. Implemented design system and code standards with ESLint + Prettier (NFTFY).",
     photo: "/babyPool.jpeg",
   },
   {
@@ -445,11 +430,11 @@ export const displaySkills = [
     src: skillsData.databases,
   },
   {
-    text: "Blockchain",
-    src: skillsData.blockchain,
+    text: "Cloud and DevOps",
+    src: skillsData.cloudOps,
   },
   {
-    text: "Cloud and Devops",
-    src: skillsData.cloudOps,
+    text: "Blockchain",
+    src: skillsData.blockchain,
   },
 ];

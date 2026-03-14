@@ -17,9 +17,9 @@ const skillPage = () => {
         <Heading>My Technical Experience/Skills.</Heading>
 
         <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-          Currently iI have a solid understand of Front End, Back End, Blockchain and DevOps . I specialize in building web
-          applications and sites using Solidity, Javascript, Typescript, React, Nextjs &
-          Node.
+          I have solid experience across Front End, Back End, Cloud and AI-powered engineering. I specialize in building
+          fintech products and scalable applications using TypeScript, React, Next.js, Node.js &
+          AWS.
         </p>
 
         {displaySkills.map((val, index) => {
