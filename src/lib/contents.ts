@@ -253,14 +253,20 @@ export const workData = [
     period: "Jun 2024 - Present",
     title: "Lead Software Engineer",
     institution: "Ether Global Assets",
-    description: `
-      • Led the design and rollout of API V2, replacing BullMQ with AWS SQS, achieving 99.9% uptime and improving queue reliability without additional costs.
-      • Implemented authentication via Amazon Cognito with OAuth2 and MFA, resulting in zero security incidents. Introduced an OAuth2-based API key system aligned with financial industry standards.
-      • Re-architected the PIX payment infrastructure, which processes over 70% of company revenue — handling over 8 million BRL in transactions in just 90 days.
-      • Designed a flexible fee system with unlimited configurations for system, managers, and tenants — now generating over 200,000 BRL in total revenue.
-      • Built an automated withdrawal system for tenants — over 200,000 BRL processed — eliminating manual payout delays.
-      • Scaled the engineering team 2x and introduced agile practices, accelerating delivery cycles by 40% and increasing strategic output by 85%.
-    `,
+    description: `Joined as the company's first senior developer. Built the entire technical stack from scratch: front-end, back-end, DevOps, and cloud infrastructure. Progressed to Tech Lead, now driving AI adoption across engineering workflows and leading the team that processes millions in financial transactions.
+
+AI Engineering Operations: Introduced AI-powered workflows across the engineering team:
+• Code reviews reduced from 1h to under 15 minutes per PR
+• Feature delivery 4x faster (from 30-day plans to 7-day execution)
+• Incident resolution reduced from 3+ hours to 30 minutes
+• Implemented spec-driven development with AI-generated RFCs on Harness
+• Built AI-assisted incident resolution integrated with GitHub
+
+Enterprise-Grade Security: Implemented user authentication via Amazon Cognito with OAuth2 and Multi-Factor Authentication (MFA), resulting in zero security incidents post-launch. Introduced an API key system following OAuth2 standards, aligning with practices adopted by the majority of the financial industry.
+
+PIX Infrastructure Overhaul: Re-architected the PIX payment processing system, which supports over 70% of the company's revenue, to improve reliability, scalability, and eliminate single-provider dependencies. In just 90 days, the upgraded infrastructure handled over 8 million BRL in transactions.
+
+Team Growth & Agile Acceleration: Scaled the development team by 2x and introduced agile methodologies with continuous integration/deployment (CI/CD).`,
     photo: "/babyPool.jpeg",
   },
   {
