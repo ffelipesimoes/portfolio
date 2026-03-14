@@ -105,18 +105,25 @@ export const events = [
 
 export const Projects = [
   {
-    title: "Balão Revelação (BabyPool)",
+    title: "W3DU - Partners in AI and Technology",
+    description:
+      "AI-powered product studio. We combine technical expertise with artificial intelligence to launch products from zero.",
+    tags: ["React", "Next.js", "Node.js", "AWS"],
+    link: "https://www.w3du.com",
+  },
+  {
+    title: "Bolão Revelação (BabyPool)",
     description:
       "Gender reveal betting platform. MVP generated R$1,200+ in revenue with 50+ bets in the first round. Built and validated with real users.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind"],
-    link: "https://github.com/ffelipesimoes/git-gbaby-gender-prediction",
+    link: "https://bolaorevelacao.com.br",
   },
   {
     title: "Orça Comigo",
     description:
       "Finance management app for couples. R$280,000+ managed across 1,100+ transactions by real users.",
     tags: ["React", "Next.js", "Node.js", "TypeScript"],
-    link: "#",
+    link: "https://orcacomigo.com",
   },
   {
     title: "Serverless Ecommerce API with AWS",
@@ -131,12 +138,6 @@ export const Projects = [
       "Cloud environment deployment with bastion servers and EC2 instances using Terraform and Infrastructure as Code.",
     tags: ["AWS", "Terraform", "Infrastructure-as-Code"],
     link: "https://github.com/ffelipesimoes/terraform-bastionHost-ec2-aws",
-  },
-  {
-    title: "NFTFact - A backend for NFT factory",
-    description: "A factory for creating and deploying NFT contracts at scale.",
-    tags: ["Solidity", "TypeScript", "NestJS", "Hardhat"],
-    link: "https://github.com/ffelipesimoes/nft-factory-api-nest-hardhat",
   },
 ];
 
@@ -174,6 +175,13 @@ export const certifications = [
 ];
 
 export const educationData = [
+  {
+    period: "2025 - 2026",
+    title: "Postgraduate Degree, Software Engineering with AI",
+    institution: "Full Cycle",
+    description:
+      "Advanced studies in AI-powered software engineering, focusing on Large Language Models (LLMs), Artificial Intelligence, and modern development workflows.",
+  },
   {
     period: "2019 - 2020",
     title: "MBA in Blockchain Applications",
@@ -268,7 +276,7 @@ export const workData = [
     title: "Founder & Developer",
     institution: "W3DU",
     description:
-      "Building AI-powered products and MVPs. W3DU combines technical expertise with artificial intelligence to launch products from zero. • Orça Comigo: finance management app for couples. R$280,000+ managed across 1,100+ transactions by real users. • Balão Revelação (BabyPool): gender reveal betting platform. MVP generated R$1,200+ in revenue with 50+ bets in the first round.",
+      "Building AI-powered products and MVPs. W3DU combines technical expertise with artificial intelligence to launch products from zero. • Orça Comigo: finance management app for couples. R$280,000+ managed across 1,100+ transactions by real users. • Bolão Revelação (BabyPool): gender reveal betting platform. MVP generated R$1,200+ in revenue with 50+ bets in the first round.",
     photo: "/babyPool.jpeg",
   },
   {
