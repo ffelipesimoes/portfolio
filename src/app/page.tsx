@@ -5,9 +5,9 @@ import GithubBtn from "@/components/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 
 export const siteConfig = {
-  name: "Felipe Simões | Tech Lead & Founder",
+  name: "Felipe Simões",
   description:
-    "Lead Software Engineer & Founder building fintech products from zero. AI-powered engineering, full-stack development, and technical leadership. From first hire to Tech Lead.",
+    "Experienced IT professional with over 14 years across diverse sectors (Legal, Banking, Mining, Health) from startups to large enterprises around the world. Driven by a passion for innovation, combining intelligent design with a results-oriented approach.",
   ogImage: "https://felipesimoes.dev/og-image.png",
   url: "https://felipesimoes.dev",
 };

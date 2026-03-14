@@ -21,25 +21,21 @@ export default function page() {
       </Badge>
       <div className="flex flex-col gap-3">
         <h1 className="font-semibold text-2xl sm:text-xl text-gray-900 leading-tight">
-          Tech Lead & Founder. I Build Fintech Products From Zero.
+          Software Engineer And DevOps Engineer, Based In Portugal.
         </h1>
 
         <div className="font-sans text-gray-900 w-full space-y-6 p-6 rounded-lg shadow bg-white">
           <p className="text-lg sm:text-base leading-relaxed">
-            I build fintech products from zero: front-end, back-end, DevOps, cloud.
-            I've done it as the first senior developer hired at Ether.
-            And as founder of my own products.
+            Experienced IT professional with over 14 years across diverse
+            sectors (Legal, Banking, Mining, Health) from startups to large
+            enterprises around the world. Driven by a passion for innovation,
+            combining intelligent design with a results-oriented approach.{" "}
           </p>
           <p className="text-lg sm:text-base leading-relaxed">
-            Today I lead engineering teams and bring AI into the workflow.
-            My sweet spot is 0 to 10: the phase where nothing exists yet.
-          </p>
-          <p className="text-lg sm:text-base leading-relaxed">
-            I come from infrastructure, so I speak every technical layer and translate it for business.
-            I'm also a founder at heart, building products because I love turning ideas into things people actually use.
-          </p>
-          <p className="text-lg sm:text-base leading-relaxed">
-            Moved from Brazil to Portugal, and I keep building.
+            As a Software Developer and DevOps engineer, my focus is to support
+            organizations that wish to successfully navigate the era of Web 3.0,
+            integrating technological innovations for a solid presence in the
+            digital space.{" "}
           </p>
 
           <p className="text-lg sm:text-base leading-relaxed">
@@ -47,22 +43,26 @@ export default function page() {
           </p>
 
           <ul className="list-disc pl-8 text-lg sm:text-base leading-relaxed">
-            <li>Full-stack product development (0 to 1)</li>
-            <li>AI-powered engineering workflows</li>
-            <li>Technical leadership & team scaling</li>
-            <li>DevOps & Cloud Architecture (AWS)</li>
+            <li>Full stack software development;</li>
+            <li>DevOps engineering;</li>
+            <li>Blockchain consulting;</li>
+            <li>Lectures on Web 3.0.</li>
           </ul>
 
           <p className="text-lg sm:text-base leading-relaxed">
-            When I'm not coding, you'll find me playing guitar or making people laugh with a good story.
+            My mission is to create solutions that empower end-users, enhancing
+            transparency and security in an ever-evolving digital environment.
           </p>
 
           <p className="text-lg sm:text-base leading-relaxed">
-            Building something from zero and need a technical leader who thinks like a founder?
-            Let's talk →{" "}
-            <a href="mailto:felipe.simoes@etherglobalassets.com.br" className="text-blue-600 hover:underline">
-              felipe.simoes@etherglobalassets.com.br
-            </a>
+            When I'm not working, I love playing guitar, singing, and telling
+            stories that make people laugh.
+          </p>
+
+          <p className="text-lg sm:text-base leading-relaxed">
+            If you're looking to expand your company's capabilities with
+            blockchain technology and Web 3.0, I would love to collaborate to
+            develop strategies that propel your business.
           </p>
         </div>
       </div>
